@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | NovaTech Solutions</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header id="main-header">
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo">Nova<span>Tech</span></a>
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation"><span class="hamburger"></span></button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="padding: 140px 0 80px;">
+      <div class="container">
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">OUR WORK</p>
+        <h1>Our Portfolio</h1>
+        <p>A showcase of projects that have transformed businesses across Nigeria and West Africa.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web Apps</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+          <button class="filter-btn" data-filter="cloud">Cloud</button>
+          <button class="filter-btn" data-filter="cybersecurity">Cybersecurity</button>
+        </div>
+        <div class="grid grid-3">
+          <div class="portfolio-card" data-category="web">
+            <img src="images\portfolio\project-agrotrack.png" alt="AgroTrack Dashboard" style="height: 200px; object-fit: cover; width: 100%;">
+            <div style="padding: var(--space-md);">
+              <span style="background: #e0f2fe; color: #0369a1; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Web App</span>
+              <h3 style="margin: 10px 0;">AgroTrack</h3>
+              <p style="color: var(--color-text-light); font-size: 0.9rem;">Inventory management platform for AgroFresh Nigeria Ltd.</p>
+              <a href="#" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.8rem;">View Details</a>
+            </div>
+          </div>
+          <div class="portfolio-card" data-category="mobile">
+            <img src="images\portfolio\project-payswift.png" alt="PaySwift App" style="height: 200px; object-fit: cover; width: 100%;">
+            <div style="padding: var(--space-md);">
+              <span style="background: #fce7f3; color: #9d174d; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Mobile</span>
+              <h3 style="margin: 10px 0;">PaySwift Wallet</h3>
+              <p style="color: var(--color-text-light); font-size: 0.9rem;">Cross-border fintech payment wallet.</p>
+              <a href="#" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.8rem;">View Details</a>
+            </div>
+          </div>
+          <div class="portfolio-card" data-category="cloud">
+            <img src="images\portfolio\project-cloudfirst.png" alt="CloudFirst Migration" style="height: 200px; object-fit: cover; width: 100%;">
+            <div style="padding: var(--space-md);">
+              <span style="background: #e0e7ff; color: #4338ca; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Cloud</span>
+              <h3 style="margin: 10px 0;">CloudFirst Migration</h3>
+              <p style="color: var(--color-text-light); font-size: 0.9rem;">Government agency AWS cloud migration.</p>
+              <a href="#" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.8rem;">View Details</a>
+            </div>
+          </div>
+          <div class="portfolio-card" data-category="cybersecurity">
+            <img src="images\portfolio\project-securenet.png" alt="SecureNet Audit" style="height: 200px; object-fit: cover; width: 100%;">
+            <div style="padding: var(--space-md);">
+              <span style="background: #fee2e2; color: #991b1b; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Security</span>
+              <h3 style="margin: 10px 0;">SecureNet Audit</h3>
+              <p style="color: var(--color-text-light); font-size: 0.9rem;">Banking infrastructure security assessment.</p>
+              <a href="#" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.8rem;">View Details</a>
+            </div>
+          </div>
+          <div class="portfolio-card" data-category="web">
+            <img src="images\portfolio\project-skillup.png" alt="SkillUp LMS" style="height: 200px; object-fit: cover; width: 100%;">
+            <div style="padding: var(--space-md);">
+              <span style="background: #e0f2fe; color: #0369a1; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Web App</span>
+              <h3 style="margin: 10px 0;">SkillUp LMS</h3>
+              <p style="color: var(--color-text-light); font-size: 0.9rem;">E-learning platform for Covenant University.</p>
+              <a href="#" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.8rem;">View Details</a>
+            </div>
+          </div>
+          <div class="portfolio-card" data-category="mobile">
+            <img src="images\portfolio\project-markethub.png" alt="Markethub App" style="height: 200px; object-fit: cover; width: 100%;">
+            <div style="padding: var(--space-md);">
+              <span style="background: #fce7f3; color: #9d174d; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">Mobile</span>
+              <h3 style="margin: 10px 0;">MarketHub</h3>
+              <p style="color: var(--color-text-light); font-size: 0.9rem;">Multi-vendor e-commerce marketplace.</p>
+              <a href="#" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.8rem;">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section text-center" style="background: var(--color-background);">
+      <div class="container">
+        <h2 class="section-title">Have a Project in Mind?</h2>
+        <p class="section-text">Join 120+ businesses that trust NovaTech to bring their digital ideas to life.</p>
+        <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col"><h4 class="footer-heading">NovaTech Solutions</h4><p class="footer-text">Empowering Africa's Digital Future — One Solution at a Time.</p></div>
+        <div class="footer-col"><h4 class="footer-heading">Quick Links</h4><div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="contact.html">Contact</a></div></div>
+        <div class="footer-col"><h4 class="footer-heading">Services</h4><div class="footer-links"><a href="services.html">Web Dev</a><a href="services.html">Cloud</a><a href="services.html">Mobile</a><a href="services.html">Security</a><a href="services.html">Training</a></div></div>
+        <div class="footer-col"><h4 class="footer-heading">Contact</h4><p class="footer-text">📍 Wuse 2, Abuja<br>📞 +234 812 345 6789<br>✉️ info@novatech.africa</p></div>
+      </div>
+      <div class="footer-bottom flex-between">
+        <p class="footer-copy">© 2026 NovaTech Solutions. All rights reserved.</p>
+        <div class="social-icons"><a href="#" class="social-icon">💼</a><a href="#" class="social-icon">🐦</a><a href="mailto:info@novatech.africa" class="social-icon">✉️</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Scroll to top">↑</button>
+  <button id="dark-mode-toggle" style="position:fixed;bottom:90px;right:30px;width:40px;height:40px;border-radius:50%;background:var(--color-primary);color:white;display:flex;align-items:center;justify-content:center;z-index:99;" aria-label="Toggle dark mode">🌙</button>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
