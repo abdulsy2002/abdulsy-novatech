@@ -1,315 +1,351 @@
-🚀 NovaTech Solutions — Company Website
+# NovaTech Solutions — Company Website
 
-A professional, responsive, multi-page company website built with vanilla HTML, CSS, and JavaScript for NovaTech Solutions — a fictional IT services company based in Abuja, Nigeria.
+![NovaTech Solutions Banner](https://placehold.co/1200x400/0A1F3F/FFFFFF?text=NovaTech+Solutions+%E2%80%94+Company+Website)
 
+> 🚀 A responsive, multi-page company website built with HTML, CSS, and JavaScript for a fictional IT services company based in Abuja, Nigeria.
 
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)]()
+[![Status](https://img.shields.io/badge/Status-Completed-00C853)]()
 
+---
 
+## 📌 About This Project
 
+This is my quarter assessment project for the **3LOGY Software Development Bootcamp (2026)**. The objective was to build a professional, responsive, multi-page website for **NovaTech Solutions** — a fictional IT services and software solutions company — using only vanilla HTML, CSS, and JavaScript. No frameworks or libraries were used.
 
+**[🔗 View Live Site →]** [Replace with your GitHub Pages or Netlify URL, or write "Open `index.html` in a browser"]
 
+---
 
+## 📸 Screenshots
 
-🔗 View Live Demo → (Replace with your GitHub Pages/Netlify URL)
-📌 Table of Contents
-About This Project
-✨ Features
-📸 Screenshots
-🛠️ Technologies Used
-📂 Project Structure
-🚀 How to Run Locally
-📄 Pages & Features
-⚡ JavaScript Functionality
-🎨 Design System
-♿ Accessibility
-🧪 Testing
-🐛 Known Issues
-🔮 Future Improvements
-📚 Credits & Attribution
-✅ Pre-Submission Checklist
-👤 Student Information
-📌 About This Project
-This project was built as the Quarter Assessment for the 3LOGY Software Development Bootcamp (2026). The objective was to demonstrate mastery of front-end fundamentals by building a production-ready, responsive company website using only vanilla HTML, CSS, and JavaScript — no frameworks or libraries allowed.
-🎯 Key Objectives Met
-✅ Semantic HTML5 structure with proper accessibility attributes
-✅ Mobile-first responsive design using CSS Grid, Flexbox, and media queries
-✅ DOM manipulation and event handling with vanilla JavaScript
-✅ Form validation with user-friendly error messages
-✅ Interactive components (mobile nav, accordion, filtering, dark mode)
-✅ Consistent design system using CSS custom properties
-✅ Clean, maintainable, and well-commented code
-🌍 Company Context
-NovaTech Solutions is a fictional technology startup headquartered in Abuja, Nigeria, specializing in:
-Web & Mobile Application Development
-Cloud Infrastructure & DevOps
-Cybersecurity & IT Consulting
-Corporate Tech Training
-✨ Features
-🔴 Required Features (Implemented)
-Feature
-Status
-Description
-Responsive Navigation
-✅
-Fixed navbar with mobile hamburger toggle, active page indicator
-Mobile-First Design
-✅
-Fully responsive across desktop (≥992px), tablet (768-991px), mobile (≤767px)
-Contact Form Validation
-✅
-Real-time validation for name, email, subject, message with inline errors
-Service Accordion
-✅
-Expand/collapse service details with single-open behavior
-Portfolio Grid
-✅
-Responsive project showcase with category filtering
-Design System Usage
-✅
-All colors, spacing, and typography use CSS custom properties
-Semantic HTML
-✅
-Proper use of <header>, <main>, <footer>, <nav>, <section>, <article>
-Accessibility Basics
-✅
-Alt text on images, aria-labels on buttons, keyboard-navigable
-🟢 Bonus Features (Implemented)
-Feature
-Status
-Description
-Scroll-to-Top Button
-✅
-Appears after 300px scroll, smooth scroll to top
-Navbar Scroll Effect
-✅
-Adds shadow and background change on scroll
-Portfolio Filtering
-✅
-Filter projects by category (All, Web, Mobile, Cloud, Security)
-Dark Mode Toggle
-✅
-Persistent theme preference using localStorage + system detection
-Smooth Scroll Anchors
-✅
-Offset scroll for fixed navbar on anchor link clicks
-Typing Animation
-✅
-Hero section text cycles through keywords with delete/type effect
-📸 Screenshots
-Replace placeholder images with your actual screenshots before submission
-🖥️ Desktop View
-Homepage
-Services
-Contact
+> **Instructions:** Replace the mockup images below with actual screenshots of **your completed pages**. Take screenshots at desktop width (~1200px). Save them in `docs/screenshots/` and update the paths below.
 
+### Homepage
+![Homepage Design Mockup](docs/design/mockups/homepage-mockup.png)
+<!-- ✏️ REPLACE with your screenshot: ![Homepage](docs/screenshots/homepage.png) -->
 
+### About Page
+![About Design Mockup](docs/design/mockups/about-mockup.png)
+<!-- ✏️ REPLACE with your screenshot: ![About](docs/screenshots/about.png) -->
 
-📱 Mobile View
-Mobile Nav
-Form Validation
-Dark Mode
+### Services Page
+![Services Design Mockup](docs/design/mockups/services-mockup.png)
+<!-- ✏️ REPLACE with your screenshot: ![Services](docs/screenshots/services.png) -->
 
+### Portfolio Page
+![Portfolio Design Mockup](docs/design/mockups/portfolio-mockup.png)
+<!-- ✏️ REPLACE with your screenshot: ![Portfolio](docs/screenshots/portfolio.png) -->
 
+### Contact Page
+![Contact Design Mockup](docs/design/mockups/contact-mockup.png)
+<!-- ✏️ REPLACE with your screenshot: ![Contact](docs/screenshots/contact.png) -->
 
-🛠️ Technologies Used
-Technology
-Version
-Purpose
-HTML5
-5
-Semantic page structure, accessibility attributes, form elements
-CSS3
-3
-Layout (Grid/Flexbox), animations, responsive media queries, CSS variables
-JavaScript
-ES6+
-DOM manipulation, event handling, form validation, interactive components
-Google Fonts
-—
-Typography: Space Grotesk (headings) + Inter (body text)
-Placehold.co
-—
-Placeholder images during development
-TinyPNG
-—
-Image compression for optimized load times
-⚠️ No frameworks or libraries were used. This project is built entirely with vanilla HTML, CSS, and JavaScript as required by the assessment brief.
-📂 Project Structure
-1234567891011121314151617181920212223242526
-🚀 How to Run Locally
-Option 1: Direct File Open (Quickest)
-bash
-12345678910111213
-Option 2: VS Code Live Server (Recommended for Development)
-bash
-1234567
-Option 3: Python HTTP Server
-bash
-123
-💡 Tip: Use browser DevTools (F12) to test responsive design and check the Console for JavaScript errors.
-📄 Pages & Features
-✅ Homepage (index.html)
-123456
-✅ About Page (about.html)
-12345
-✅ Services Page (services.html)
-12345
-✅ Portfolio Page (portfolio.html)
-12345
-✅ Contact Page (contact.html)
-12345
-✅ Cross-Cutting Features
-12345
-⚡ JavaScript Functionality
-Core Functions (assets/js/main.js)
-javascript
-123456789101112
-Key Implementation Details
-✅ All functions wrapped in DOMContentLoaded event listener
-✅ Guard clauses (if (!element) return;) prevent console errors on pages without elements
-✅ Form validation uses regex: /^[^\s@]+@[^\s@]+\.[^\s@]+$/ for email
-✅ Accordion uses classList.toggle('active') + CSS max-height transition
-✅ Dark mode checks localStorage + window.matchMedia('(prefers-color-scheme: dark)')
-✅ All event listeners use addEventListener (no inline onclick)
-🎨 Design System
-This project uses a centralized CSS custom properties system defined in :root for consistency and maintainability:
-css
-1234567891011121314151617181920212223242526
-Usage Example
-css
-1234567891011121314
-♿ Accessibility
-This project follows basic WCAG 2.1 guidelines:
-1234567
-Testing Tools Used
-WAVE Web Accessibility Evaluator
-Chrome DevTools Lighthouse Accessibility audit
-Manual keyboard navigation testing
-🧪 Testing
-Browser Compatibility
-Browser
-Version
-Status
-Chrome
-120+
-✅ Fully tested
-Firefox
-121+
-✅ Fully tested
-Safari
-17+
-✅ Fully tested
-Edge
-120+
-✅ Fully tested
-Responsive Testing
-1234
-JavaScript Testing Checklist
-12345678
-HTML Validation
-123
-🐛 Known Issues
-#
-Issue
-Page
-Severity
-Workaround / Notes
-1
-Placeholder images used for team/portfolio
-All
-Low
-Replace with actual images before final submission
-2
-Google Maps embed uses generic Abuja coordinates
-Contact
-Low
-Update with exact office coordinates if available
-3
-Typing animation may feel slow on low-end devices
-Homepage
-Low
-Adjust typeSpeed values in initTypingEffect()
-4
-No form backend integration (frontend-only)
-Contact
-N/A
-Assessment requirement; would use Formspree/EmailJS in production
-✅ No critical bugs at time of submission. All required functionality works as specified.
-🔮 Future Improvements
-If given more time, I would enhance this project with:
-Form Backend Integration
-Connect contact form to Formspree or EmailJS for actual message delivery.
-Performance Optimizations
-Implement lazy loading for images, code splitting for JS, and critical CSS inlining.
-Enhanced Animations
-Add scroll-triggered animations using Intersection Observer API for fade-in effects.
-Advanced Accessibility
-Add ARIA live regions for form validation announcements and skip-to-content links.
-PWA Features
-Add manifest.json and service worker for offline support and installability.
-Unit Testing
-Implement Jest tests for JavaScript validation and interaction logic.
-Internationalization
-Add language toggle for Nigerian languages (Hausa, Yoruba, Igbo) using data attributes.
-📚 Credits & Attribution
-Images & Assets
-Asset
-Source
-License
-Team member placeholders
-Placehold.co
-Free
-Portfolio screenshots
-Placehold.co
-Free
-Service icons
-Heroicons
-MIT
-Social media icons
-Simple Icons
-CC0
-Favicon
-Custom SVG
-—
-Fonts
-Space Grotesk — Google Fonts — SIL Open Font License
-Inter — Google Fonts — SIL Open Font License
-Learning Resources
-MDN Web Docs — HTML/CSS/JS reference
-CSS-Tricks — Layout techniques and guides
-W3C Validator — HTML validation
-WebAIM Contrast Checker — Accessibility testing
-3LOGY Bootcamp course materials and instructor guidance
-Design System
-The color palette, typography scale, spacing system, and CSS custom properties were provided by the 3LOGY Software Development Bootcamp as part of the assessment starter files.
-✅ Pre-Submission Checklist
-1234567891011121314151617181920212223242526272829303132
-👤 Student Information
-Field
-Details
-Full Name
-[Abdurrahman sulaiman]
-GitHub Username
-Abdulsy2002
-@your-username
-Cohort
-3LOGY Software Development Bootcamp — 2026 Q1
-Assessment
-Quarter Assessment — HTML, CSS & JavaScript
-Submission Date
-[19/04/2026]
-Live Demo URL
-https://yourusername.github.io/NovaTech-Company-Website (Replace with actual URL)
-Repository URL
-https://github.com/abdulsy2002/abdulsy-novatech.git
-💡 Note to Evaluators: This project was built following the official 3LOGY Bootcamp assessment rubric. All required features are implemented per the JS-REQUIREMENTS.md, PAGE-CONTENT-GUIDE.md, and DESIGN-SYSTEM.md specifications. Bonus features were added to demonstrate extended proficiency.
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Version | Purpose |
+| ---------- | ------- | ------- |
+| **HTML5** | 5 | Page structure and semantic markup |
+| **CSS3** | 3 | Styling, layout (Flexbox & Grid), animations, responsive design |
+| **JavaScript** | ES6 | DOM manipulation, form validation, interactive components |
+| **Google Fonts** | — | Typography: Space Grotesk (headings) + Inter (body) |
+| **[Any other tool]** | — | [Purpose — e.g., "TinyPNG for image compression"] |
+
+> **No frameworks or libraries were used.** This project is built entirely with vanilla HTML, CSS, and JavaScript as required by the assessment brief.
+
+---
+
+## 📂 Project Structure
+
+```
+NovaTech-Company-Website/
+│
+├── index.html                  ← Homepage
+├── about.html                  ← About Us page
+├── services.html               ← Services page
+├── portfolio.html              ← Portfolio page
+├── contact.html                ← Contact page
+│
+├── assets/
+│   ├── css/
+│   │   └── styles.css          ← Main stylesheet (design system + custom styles)
+│   ├── js/
+│   │   └── main.js             ← All JavaScript functionality
+│   ├── fonts/                  ← Custom fonts (if any)
+│   └── images/
+│       ├── logo.png            ← Primary logo
+│       ├── logo-white.png      ← White logo for dark backgrounds
+│       ├── hero/               ← Hero/banner background images
+│       ├── team/               ← Team member photos
+│       ├── services/           ← Service illustration images
+│       ├── portfolio/          ← Project screenshots
+│       ├── clients/            ← Client/testimonial photos
+│       ├── about/              ← About page content images
+│       └── icons/              ← Favicon & icon assets
+│
+├── docs/
+│   ├── design/                 ← Design references & branding
+│   │   ├── DESIGN-SYSTEM.md
+│   │   ├── PROJECT-BRIEF.md
+│   │   ├── LOGO-DESIGN-BRIEF.md
+│   │   └── mockups/            ← UI design mockup images
+│   ├── requirements/           ← Assessment specs & guides
+│   │   ├── ASSESSMENT-INSTRUCTIONS.md
+│   │   ├── PAGE-CONTENT-GUIDE.md
+│   │   ├── JS-REQUIREMENTS.md
+│   │   ├── IMAGE-REQUIREMENTS.md
+│   │   └── FOLDER-STRUCTURE.md
+│   └── screenshots/            ← README screenshots
+│
+├── README.md                   ← This file
+└── .gitignore                  ← Git ignore rules
+```
+
+---
+
+## 🚀 How to Run Locally
+
+### Option 1: Direct File Open
+```bash
+# 1. Clone the repository
+git clone https://github.com/[your-username]/NovaTech-Company-Website.git
+
+# 2. Navigate to the project folder
+cd NovaTech-Company-Website
+
+# 3. Open in browser
+# Simply double-click index.html or:
+start index.html          # Windows
+open index.html           # macOS
+xdg-open index.html       # Linux
+```
+
+### Option 2: VS Code Live Server
+1. Open the project folder in **VS Code**
+2. Install the **Live Server** extension (by Ritwick Dey)
+3. Right-click `index.html` → **"Open with Live Server"**
+4. The website opens at `http://127.0.0.1:5500`
+
+> 💡 **Recommended:** Use Live Server for automatic reloading when you make changes.
+
+---
+
+## 📄 Pages & Features
+
+### Page Completion Status
+
+> **Instructions:** Check off each feature as you complete it. Change `[ ]` to `[x]`.
+
+#### Homepage (`index.html`)
+- [ ] Hero section with company name, tagline, and CTA buttons
+- [ ] Background image or gradient on hero
+- [ ] Services overview section (3 service cards in responsive grid)
+- [ ] Why Choose Us / Stats section (4 stats)
+- [ ] Call-to-Action section
+- [ ] Consistent navigation and footer
+
+#### About Page (`about.html`)
+- [ ] Page hero/banner with breadcrumb
+- [ ] Company story section (2+ paragraphs)
+- [ ] Mission & Vision (side-by-side cards)
+- [ ] Meet the Team (4+ team member cards with photos)
+- [ ] Consistent navigation and footer
+
+#### Services Page (`services.html`)
+- [ ] Page hero/banner with breadcrumb
+- [ ] All 5 services displayed with icons, headings, and descriptions
+- [ ] Interactive service detail (accordion / tabs / modal) — *circle which you chose*
+- [ ] CTA section
+- [ ] Consistent navigation and footer
+
+#### Portfolio Page (`portfolio.html`)
+- [ ] Page hero/banner with breadcrumb
+- [ ] 4+ project showcase cards with images and descriptions
+- [ ] Project detail view (modal, link, or detail section)
+- [ ] CTA section
+- [ ] Consistent navigation and footer
+
+#### Contact Page (`contact.html`)
+- [ ] Page hero/banner with breadcrumb
+- [ ] Contact form with 5 fields (name, email, phone, subject, message)
+- [ ] JavaScript form validation with error messages
+- [ ] Company contact information displayed
+- [ ] Consistent navigation and footer
+
+#### Cross-Cutting
+- [ ] Responsive navigation bar on all pages (with active link indicator)
+- [ ] Mobile hamburger menu (functional with JavaScript)
+- [ ] Footer with company info, quick links, and social icons on all pages
+- [ ] Fully responsive design (desktop, tablet, mobile)
+- [ ] Design system CSS variables used consistently (no hardcoded colors/fonts)
+
+---
+
+## ⚡ JavaScript Features Implemented
+
+> **Instructions:** Check which features you implemented. For each one, briefly describe how it works.
+
+### Required Features
+
+- [ ] **Mobile Navigation Toggle**
+  - Function: `initMobileNav()`
+  - Description: [Briefly describe — e.g., "Clicking the hamburger button toggles the mobile nav menu. Menu closes when a link is clicked."]
+
+- [ ] **Contact Form Validation**
+  - Functions: `initContactForm()`, `showError()`, `clearErrors()`
+  - Description: [Briefly describe — e.g., "Validates name, email, subject, and message fields on form submit. Shows inline error messages. Displays success message when all fields are valid."]
+
+- [ ] **Service Interaction** — [Accordion / Tabs / Modal] *(circle one)*
+  - Function: `initServiceAccordion()` / `initServiceTabs()` / `initServiceModal()`
+  - Description: [Briefly describe — e.g., "Accordion component that expands to show full service details. Only one item open at a time."]
+
+### Bonus Features (if implemented)
+
+- [ ] **Scroll-to-Top Button** — `initScrollToTop()`
+  - [Brief description of what it does]
+
+- [ ] **Navbar Scroll Effect** — `initNavScroll()`
+  - [Brief description of what it does]
+
+- [ ] **Portfolio Filtering** — `initPortfolioFilter()`
+  - [Brief description of what it does]
+
+- [ ] **Dark Mode Toggle** — `initDarkMode()`
+  - [Brief description of what it does]
+
+- [ ] **Smooth Scroll** — `initSmoothScroll()`
+  - [Brief description of what it does]
+
+- [ ] **Typing Animation** — `initTypingEffect()`
+  - [Brief description of what it does]
+
+- [ ] **Other: [Feature Name]**
+  - [Description]
+
+---
+
+## 🐛 Known Issues / Bugs
+
+> **Instructions:** Be honest about any bugs or issues you're aware of. This shows maturity and self-awareness — real developers always track known issues.
+
+| # | Issue | Page | Severity | Description |
+| - | ----- | ---- | -------- | ----------- |
+| 1 | [e.g., "Hero image loads slowly on mobile"] | [e.g., index.html] | [Low/Medium/High] | [Brief description of the issue and any workaround] |
+| 2 | [Issue title] | [Page] | [Severity] | [Description] |
+| 3 | [Issue title] | [Page] | [Severity] | [Description] |
+
+> If you have **no known issues**, write: "No known bugs at the time of submission. Tested on Chrome, Firefox, and Safari."
+
+---
+
+## 🔮 Future Improvements
+
+> **Instructions:** If you had more time, what would you add or change? List at least 3 improvements.
+
+1. **[Improvement 1]** — [e.g., "Add page transition animations between pages using CSS keyframes"]
+2. **[Improvement 2]** — [e.g., "Implement a working contact form backend using Formspree or EmailJS"]
+3. **[Improvement 3]** — [e.g., "Add a blog page with article cards and a reading view"]
+4. **[Improvement 4]** — [e.g., "Implement lazy loading for portfolio images to improve performance"]
+5. **[Improvement 5]** — [e.g., "Add ARIA landmarks and improve keyboard navigation for accessibility"]
+
+---
+
+## 🎨 Design Decisions
+
+> **Instructions:** Briefly explain any design choices you made that differ from or extend the provided design system.
+
+- **[Decision 1]:** [e.g., "I chose the accordion interaction for the services page because it keeps all content on one page and reduces scrolling."]
+- **[Decision 2]:** [e.g., "I added a subtle hover animation on team cards to make the page feel more interactive."]
+- **[Decision 3]:** [e.g., "I used a pure CSS gradient for the hero instead of an image to improve load time."]
+
+---
+
+## 📚 Credits & Attributions
+
+### Images
+| Image | Source | License |
+| ----- | ------ | ------- |
+| [Hero background image] | [e.g., "Unsplash — Photo by [Photographer Name]"] | [e.g., "Unsplash License (free)"] |
+| [Team member photos] | [e.g., "Pexels — searched 'professional headshot'"] | [e.g., "Pexels License (free)"] |
+| [Portfolio mockups] | [e.g., "Smartmockups.com"] | [Free tier] |
+| [Service icons] | [e.g., "Heroicons (heroicons.com)"] | [MIT License] |
+| [Add more as needed] | | |
+
+### Fonts
+- **Space Grotesk** — [Google Fonts](https://fonts.google.com/specimen/Space+Grotesk) — SIL Open Font License
+- **Inter** — [Google Fonts](https://fonts.google.com/specimen/Inter) — SIL Open Font License
+
+### References & Resources
+- [MDN Web Docs](https://developer.mozilla.org/) — HTML/CSS/JS reference
+- [CSS-Tricks](https://css-tricks.com/) — Layout and styling techniques
+- [W3C Validator](https://validator.w3.org/) — HTML validation
+- 3LOGY Bootcamp course materials and lecture notes
+- [Add any other resources you used]
+
+### Design System
+The color palette, typography, spacing system, and CSS custom properties were provided by the **3LOGY Bootcamp** as part of the assessment starter files.
+
+---
+
+## ✅ Pre-Submission Checklist
+
+> **Instructions:** Go through this checklist before submitting. Ensure everything passes.
+
+```
+CODE QUALITY:
+[ ] HTML passes W3C Validator with no errors
+[ ] No console errors on any page (check with F12 → Console)
+[ ] All files follow naming conventions (lowercase, hyphens)
+[ ] Code is properly indented and organized
+[ ] Meaningful class names and IDs used
+[ ] Comments added to complex code sections
+
+DESIGN:
+[ ] Design system CSS variables used throughout (no hardcoded colors)
+[ ] Consistent look across all 5 pages
+[ ] All images have alt text
+[ ] Proper heading hierarchy (one H1 per page)
+
+RESPONSIVENESS:
+[ ] Tested on Desktop (≥992px)
+[ ] Tested on Tablet (768px–991px)
+[ ] Tested on Mobile (≤767px)
+[ ] Hamburger menu works on mobile
+[ ] No horizontal scrollbar on any screen size
+
+FUNCTIONALITY:
+[ ] All navigation links work correctly
+[ ] Active page indicator is correct on each page
+[ ] Contact form validation works
+[ ] Service interaction works (accordion/tabs/modal)
+[ ] No JavaScript errors in console
+
+SUBMISSION:
+[ ] Code pushed to GitHub (public repository)
+[ ] README.md completed with screenshots
+[ ] Repository has a clear, descriptive name
+[ ] All files are committed (no missing assets)
+```
+
+---
+
+## 👤 Student Information
+
+| Field | Details |
+| ----- | ------- |
+| **Full Name** | [Your Full Name] |
+| **GitHub Username** | [@your-username](https://github.com/your-username) |
+| **Cohort / Group** | [e.g., "3LOGY Bootcamp — Cohort 2026 Q1"] |
+| **Assessment** | Quarter Assessment — HTML, CSS & JavaScript |
+| **Submission Date** | [DD/MM/YYYY] |
+| **Live URL** | [GitHub Pages / Netlify link, or "N/A"] |
+
+---
+
 <p align="center">
-<strong>Built with ❤️ at 3LOGY Software Development Bootcamp</strong><br>
-<em>Empowering the next generation of African tech talent — 2026</em>
+  Built with ❤️ at <strong>3LOGY Software Development Bootcamp</strong> — 2026
 </p>
-
-🔄 Quick Start for Evaluators
-bash
-123456789101112131415
-Last Updated: [Date]
-Project Status: ✅ Submission Ready
